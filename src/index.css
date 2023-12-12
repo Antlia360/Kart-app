@@ -7,7 +7,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.kart-items{
+  display: inline-flex;
+  margin: 20px 10px;;
+}
+
+.kart-items .right-block{
+  padding: 0 20px;
+}
+
+.kart-item-actions{
+  margin-top: 20px;
+}
+
+.action-icons{
+  height: 22px;
+  width: 22px;
+  margin-right: 10px;
+}
+
+.action-icons:hover{
+  cursor: pointer;
+}
+
+.kart{
+  display: flex;
+  flex-direction: column;
 }
